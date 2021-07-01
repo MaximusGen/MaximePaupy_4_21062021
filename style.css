@@ -122,8 +122,7 @@ a:hover {
 .d-bloc .a-btn,
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
-.d-bloc a .icon-sm,
-.d-bloc a .icon-md,
+.d-bloc a .icon-sm,,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -477,6 +476,7 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    color: #000;
 }
 
 .icon-lg {
@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -692,7 +692,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #FFFFFF;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -723,7 +723,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #fff;
 }
 
 h4 {
@@ -753,7 +753,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(0, 0, 0, 0.8);
     padding: 40px 40px 40px 40px;
 }
 
@@ -775,7 +775,7 @@ h4 {
 }
 
 .tc-white {
-    color: #fff!important;
+    color: #fff;
 }
 
 .btn-atomic-tangerine {
@@ -784,8 +784,8 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #F3976C!important;
+    color: #000!important;
 }
 
 .ltc-white {
