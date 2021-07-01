@@ -353,7 +353,9 @@ a:hover {
 .nav-invert .navbar .nav {
     float: left;
 }
-
+.text-center{
+    text-align: center;
+}
 .nav-invert .navbar-header,
 .nav-invert .navbar-brand {
     float: right;
