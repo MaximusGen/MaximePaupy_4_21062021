@@ -122,7 +122,7 @@ a:hover {
 .d-bloc .a-btn,
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
-.d-bloc a .icon-sm,,
+.d-bloc a .icon-sm,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -682,7 +682,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -743,10 +743,14 @@ h4 {
 .white {
     color: #FFFFFF!important;
 }
+
+/*Modification footer */
 .font-footer {
     font-size: 2rem;
     margin-bottom: 20px;
 }
+/* Fin de modfication */
+
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -801,7 +805,7 @@ h4 {
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: #fff!important;
 }
 
 .ltc-atomic-tangerine {
@@ -831,6 +835,25 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
+}
+
+.title-section2 {
+    color: #000;
+    font-size: 2.25rem;
+}
+.citation-section2 {
+    font-style: italic;
+    text-transform: none;
+    font-weight: normal;
+    font-size: 2rem;
+    color: #57575c;
+}
+.citation-autors {
+    font-size: 1.50rem;
+}
+.title-section4 {
+    font-size: 2.7rem;
+    color: #000;
 }
 
 @media (max-width: 1024px) {
