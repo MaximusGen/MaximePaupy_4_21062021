@@ -356,6 +356,9 @@ a:hover {
 .text-center{
     text-align: center;
 }
+.black-background {
+    background-color: black;
+}
 .nav-invert .navbar-header,
 .nav-invert .navbar-brand {
     float: right;
