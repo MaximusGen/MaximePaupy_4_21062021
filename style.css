@@ -888,6 +888,17 @@ h4 {
 .label-contact {
     font-size: 2rem;
 }
+.adresse-contact {
+    color: #000;
+    font-size: 2.25rem;
+    font-weight: bold;
+    text-align: left;
+    transform: translate(250px,250px);
+}
+li:hover {
+   border: #000 1px solid;
+}
+
 /* Modification Footer */
 
 @media (max-width: 1024px) {
