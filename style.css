@@ -482,6 +482,7 @@ button {
 .icon-md {
     font-size: 30px!important;
     color: #000;
+    
 }
 
 .icon-lg {
@@ -706,7 +707,9 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 0 20px;
+    display: flex;
+    flex-flow: row wrap;   
 }
 
 h2 {
@@ -888,15 +891,24 @@ h4 {
 .label-contact {
     font-size: 2rem;
 }
+li:hover {
+    border: #000 1px solid;
+}
+/* Footer modification */
+
+.flex-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.adresse-footer{
+    margin-bottom: 15px ;
+}
+
 .adresse-contact {
     color: #000;
-    font-size: 2.25rem;
-    font-weight: bold;
-    text-align: left;
-    transform: translate(250px,250px);
-}
-li:hover {
-   border: #000 1px solid;
+    font-size: 1.75rem;
 }
 
 /* Modification Footer */
@@ -924,13 +936,13 @@ li:hover {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -949,8 +961,7 @@ li:hover {
         position: relative;
     }
     .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -960,8 +971,6 @@ li:hover {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
